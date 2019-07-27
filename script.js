@@ -10,13 +10,11 @@ function calculateAge(year){
 }
 
 //function expression
-retirement(1997);
-
 var retirement = function(year){
     console.log(65 - (2019 - year));
 }
 
-
+retirement(1997);
 
 
 
