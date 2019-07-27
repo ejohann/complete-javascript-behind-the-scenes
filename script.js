@@ -18,6 +18,12 @@ retirement(1997);
 
 
 
+// variables
+
+console.log(age);
+var age = 23;
+console.log(age);
+
 
 
 
