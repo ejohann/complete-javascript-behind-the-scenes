@@ -1,12 +1,20 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+
+// function declaration
 calculateAge(1980);
 
 function calculateAge(year){
     console.log(2019 - year);
 }
 
+//function expression
+retirement(1997);
+
+var retirement = function(year){
+    console.log(65 - (2019 - year));
+}
 
 
 
