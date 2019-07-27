@@ -107,11 +107,29 @@ var john = {
         console.log(this);
         console.log(2019 - this.yearOfBirth);
         
-        function innerFunction(){
+     /*   function innerFunction(){
             console.log(this);
         }
         innerFunction();
+        */
     }
 }
 
 john.calculateAge();
+
+
+
+var mike = {
+    name: 'Mike',
+    yearOfBirth: 1997
+}
+
+mike.calculateAge = john.calculateAge;
+mike.calculateAge();
+
+
+
+
+
+
+
