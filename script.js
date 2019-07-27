@@ -2,9 +2,11 @@
 // Lecture: Hoisting
 
 
+function calculateAge(year){
+    console.log(2019 - year);
+}
 
-
-
+calculateAge(1997);
 
 
 
