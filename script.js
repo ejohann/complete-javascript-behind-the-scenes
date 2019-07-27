@@ -91,13 +91,22 @@ function third() {
 // Lecture: The this keyword
 
 //console.log(this);
-
+/*
 calculateAge(1997);
 
 function calculateAge(year){
     console.log(2019 - year);
     console.log(this);
 }
+*/
 
+var john = {
+    name: 'John',
+    yearOfBirth: 1980,
+    calculateAge: function(){
+        console.log(this);
+        console.log(this.yearOfBirth);
+    }
+}
 
-
+john.calculateAge();
